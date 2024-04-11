@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+/* ----------------------- body elements ----------------------- */
+
+body {
+  padding: 1em;
+  margin: 0;
+  background-image: url('https://cdn5.vectorstock.com/i/1000x1000/06/89/decorative-background-with-clouds-sketch-vector-1860689.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: white;
+  text-align: center;
+  color: black;
+  font-family: "Caveat", cursive;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+/* ----------------------- container class ----------------------- */
+
+.styled-container {
+    min-width: 80vw;
+    min-height: 40vh;
+    border: solid;
+    background-color: white;
+    border: solid black 5px;
+}
