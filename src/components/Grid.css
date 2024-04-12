@@ -1,6 +1,9 @@
 /* ----------------------- grid column elements ----------------------- */
 
 .grid-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 2px;
 
 }
 
@@ -8,24 +11,34 @@
 /* ----------------------- grid layout elements ----------------------- */
 
 .grid-layout {
+    display: grid;
+    grid-template: 
+    "header header header"
+    "sidebar main main"
+    "sidebar main main"
+    "footer footer footer";
 
 }
 
 
 #header {
     background-color: lightgreen;
+    grid-area: header;
 }
 
 #main {
     background-color: lightblue;
+    grid-area: main;
     
 }
 
 #footer {
     background-color: orange;
+    grid-area: footer;
     
 }
 
 #sidebar {
     background-color: pink;
+    grid-area: sidebar;
 }
